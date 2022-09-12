@@ -2,15 +2,17 @@
 
 int main ( )
 {
-    int n=42;
-    unsigned int u_n= 10;
-    float  f =3.14;
-    double d=3.141592;
-    char c='a';
+    int z=3;
+    char name[100];
+    printf("%s","Adja meg a nevét:");
+    scanf("%s\n",name);
+    for(int i=0; i < z;++i)    
+    {
+       printf("Hello, %s\n", name); 
+    }
+    
+    
 
 
-
-   printf( "%d %u %f %f %c\n" , n, u_n, f, d, c);
-   printf("%s","Hello Word\n");
-
+   
 }    
